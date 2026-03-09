@@ -13,13 +13,12 @@ Web creada con Bootstrap 5 para presentar el evento de forma clara y atractiva, 
 ## Componentes Bootstrap usados
 - Navbar (fixed-top, dark, responsive)
 - Cards (para programa)
-- Grid system 
 - Botones (btn-primary, btn-lg)
 
 ## Commits y mejoras
-- Commit inicial: Estructura básica HTML con Navbar, Hero y Footer.
-- Commit 2: Secciones de información y programa con grids y cards.
-- Commit 3: Ajustes visuales con CSS propio, imágenes y capturas.
+- Primera parte: Estructura básica HTML con Navbar, Hero y Footer.
+- Segunda parte: Secciones de información y programa con grids y cards.
+- Tercera parte: Ajustes visuales con CSS propio, imágenes y capturas.
 
 ## Mayor dificultad y solución
 Dificultad: Subir la rama desarrollo y sincronizar con main en un repo vacío.  
