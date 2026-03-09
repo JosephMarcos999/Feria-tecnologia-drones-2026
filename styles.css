@@ -2,23 +2,40 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hero {
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+
+.seccion-portada {
+  text-shadow: 1px 1px 4px black;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  text-align: center;
+
+  background-image: url("img/smboro-ytoKYKF-9Os-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.card-img-top {
+
+
+
+.imagen-tarjeta {
   height: 180px;
-  object-fit: cover; 
+  object-fit: cover;
+  width: 100%;
 }
 
-.card {
+.tarjeta-programa {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  border: none;
   border-radius: 12px;
   overflow: hidden;
+  background: white;
 }
 
-.card:hover {
+.tarjeta-programa:hover {
   transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.15) 
+  box-shadow: 0 15px 30px gray;
 }
