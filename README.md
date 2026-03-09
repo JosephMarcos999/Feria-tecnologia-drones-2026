@@ -17,9 +17,9 @@ Web creada con Bootstrap 5 para presentar el evento de forma clara y atractiva, 
 
 ## Commits y mejoras
 - Primera parte: Estructura básica HTML con Navbar, Hero y Footer.
-- Segunda parte: Secciones de información y programa con grids y cards.
-- Tercera parte: Ajustes visuales con CSS propio, imágenes y capturas.
+- Segunda parte: Secciones de información y programa con contenedores y cards.
+- Tercera parte: Ajustes visuales con CSS , imágenes y capturas.
 
 ## Mayor dificultad y solución
-Dificultad: Subir la rama desarrollo y sincronizar con main en un repo vacío.  
-Solución: Usar `git push --set-upstream origin desarrollo` para crear la rama remota por primera vez, luego mergear a main.
+Dificultad: Subir la rama desarrollo y sincronizar con main en un repositorio vacío.  
+Solución: Usar `git push --set-upstream origin desarrollo` para crear la rama remota por primera vez
