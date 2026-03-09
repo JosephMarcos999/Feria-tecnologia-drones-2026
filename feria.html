@@ -4,109 +4,197 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feria Tecnológica de Drones 2026</title>
-  
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  
 
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+  
+  <nav class="barra-navegacion">
+    <div class="contenedor-navegacion">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#">Drones Tech 2026</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
+      <a class="logo-feria" href="#">Drones Tech 2026</a>
+
+      <button class="boton-menu">
+        ☰
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#info">Información</a></li>
-          <li class="nav-item"><a class="nav-link" href="#programa">Programa</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Inscripción</a></li>
-        </ul>
-      </div>
+
+      <ul class="menu-navegacion">
+        <li><a class="enlace-menu" href="#info">Información</a></li>
+        <li><a class="enlace-menu" href="#programa">Programa</a></li>
+        <li><a class="enlace-menu" href="#">Inscripción</a></li>
+      </ul>
+
     </div>
   </nav>
 
-  <section class="hero text-white text-center d-flex align-items-center" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/Users/luisgracia/Desktop/Trabajo thunderbird/Feria-tecnologia-drones-2026/img/Img/smboro-ytoKYKF-9Os-unsplash.jpg') center/cover no-repeat; min-height: 100vh;">
-    <div class="container">
-      <h1 class="display-3 fw-bold">Feria Tecnológica de Drones 2026</h1>
-      <p class="lead fs-3 mt-3 mb-4">Innovación aérea: exposiciones, talleres y charlas</p>
-      <a href="#programa" class="btn btn-primary btn-lg px-5 py-3">Explorar programa</a>
+
+  
+  <section class="seccion-portada">
+
+    <div class="contenido-portada">
+
+      <h1 class="titulo-principal">Feria Tecnológica de Drones 2026</h1>
+
+      <p class="subtitulo-portada">
+        Innovación aérea: exposiciones, talleres y charlas
+      </p>
+
+      <a href="#programa" class="boton-principal">
+        Explorar programa
+      </a>
+
     </div>
+
   </section>
 
 
-  <section id="info" class="py-5">
-    <div class="container">
-      <h2 class="text-center fw-bold mb-5">¿Qué tienes que saber?</h2>
-      <div class="row g-5 align-items-center">
-        <div class="col-lg-6">
-          <h3 class="fw-bold">¿Qué es la feria?</h3>
-          <p>Evento abierto al público con stands de drones de última generación, demostraciones en vivo, talleres prácticos de pilotaje y charlas sobre usos profesionales (agricultura de precisión, inspección industrial, fotografía aérea y seguridad).</p>
-          
-          
-          <img src="/Users/luisgracia/Desktop/Trabajo thunderbird/Feria-tecnologia-drones-2026/img/Img/jonathan-lampel-L9wrEGJjRdo-unsplash.jpg" alt="Feria de drones en acción" class="img-fluid rounded shadow mt-4">
+
+  <section id="info" class="seccion-informacion">
+
+    <div class="contenedor-seccion">
+
+      <h2 class="titulo-seccion">¿Qué tienes que saber?</h2>
+
+      <div class="bloque-informacion">
+
+        <div class="columna-texto">
+
+          <h3 class="subtitulo-seccion">¿Qué es la feria?</h3>
+
+          <p>
+            Evento abierto al público con stands de drones de última generación,
+            demostraciones en vivo, talleres prácticos de pilotaje y charlas
+            sobre usos profesionales (agricultura de precisión, inspección
+            industrial, fotografía aérea y seguridad).
+          </p>
+
+          <img
+            src="img/jonathan-lampel-L9wrEGJjRdo-unsplash.jpg"
+            alt="Feria de drones en acción"
+            class="imagen-informacion"
+          >
+
         </div>
-        <div class="col-lg-6">
-          <h3 class="fw-bold">Cuándo y dónde</h3>
-          <ul class="list-group list-group-flush fs-5">
-            <li class="list-group-item"><strong>Fechas:</strong> 15 al 17 de abril de 2026</li>
-            <li class="list-group-item"><strong>Horario:</strong> 10:00 – 19:00 h</li>
-            <li class="list-group-item"><strong>Lugar:</strong> Centro de Convenciones [Tu Ciudad]</li>
-            <li class="list-group-item"><strong>Entrada:</strong> Gratuita (inscripción recomendada)</li>
+
+
+        <div class="columna-datos">
+
+          <h3 class="subtitulo-seccion">Cuándo y dónde</h3>
+
+          <ul class="lista-datos">
+            <li><strong>Fechas:</strong> 15 al 17 de abril de 2026</li>
+            <li><strong>Horario:</strong> 10:00 – 19:00 h</li>
+            <li><strong>Lugar:</strong> Centro de Convenciones [Tu Ciudad]</li>
+            <li><strong>Entrada:</strong> Gratuita (inscripción recomendada)</li>
           </ul>
+
         </div>
+
       </div>
+
     </div>
+
   </section>
 
 
-  <section id="programa" class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center fw-bold mb-5">Programa destacado</h2>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100 shadow-sm">
-            <img src="/Users/luisgracia/Desktop/Trabajo thunderbird/Feria-tecnologia-drones-2026/img/Img/yitzhak-rodriguez-mVI7sD0nTlA-unsplash.jpg" class="card-img-top" alt="Taller de pilotaje"> <!-- FOTO OPCIONAL AQUÍ -->
-            <div class="card-body text-center">
-              <h5 class="card-title fw-bold">Día 1 – Exposición</h5>
-              <p class="card-text">Stands de fabricantes + charlas introductorias sobre drones comerciales.</p>
-            </div>
+ 
+  <section id="programa" class="seccion-programa">
+
+    <div class="contenedor-seccion">
+
+      <h2 class="titulo-seccion">Programa destacado</h2>
+
+      <div class="lista-tarjetas">
+
+        
+        <article class="tarjeta-programa">
+
+          <img
+            src="img/yitzhak-rodriguez-mVI7sD0nTlA-unsplash.jpg"
+            alt="Taller de pilotaje"
+            class="imagen-tarjeta"
+          >
+
+          <div class="contenido-tarjeta">
+
+            <h5 class="titulo-tarjeta">Día 1 – Exposición</h5>
+
+            <p class="texto-tarjeta">
+              Stands de fabricantes + charlas introductorias sobre drones comerciales.
+            </p>
+
           </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 shadow-sm">
-            <img src="/Users/luisgracia/Desktop/Trabajo thunderbird/Feria-tecnologia-drones-2026/img/Img/karl-greif-H5IXIH254AU-unsplash.jpg" class="card-img-top" alt="Demostración en vivo"> <!-- FOTO OPCIONAL AQUÍ -->
-            <div class="card-body text-center">
-              <h5 class="card-title fw-bold">Día 2 – Talleres</h5>
-              <p class="card-text">Pilotaje práctico + demostraciones en exteriores.</p>
-            </div>
+
+        </article>
+
+
+        
+        <article class="tarjeta-programa">
+
+          <img
+            src="img/karl-greif-H5IXIH254AU-unsplash.jpg"
+            alt="Demostración en vivo"
+            class="imagen-tarjeta"
+          >
+
+          <div class="contenido-tarjeta">
+
+            <h5 class="titulo-tarjeta">Día 2 – Talleres</h5>
+
+            <p class="texto-tarjeta">
+              Pilotaje práctico + demostraciones en exteriores.
+            </p>
+
           </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 shadow-sm">
-            <img src="/Users/luisgracia/Desktop/Trabajo thunderbird/Feria-tecnologia-drones-2026/img/Img/vilkasss-ai-generated-8894581_1920.jpg" class="card-img-top" alt="Charla innovación"> <!-- FOTO OPCIONAL AQUÍ -->
-            <div class="card-body text-center">
-              <h5 class="card-title fw-bold">Día 3 – Innovación</h5>
-              <p class="card-text">Conferencias avanzadas + zona de networking y cierre.</p>
-            </div>
+
+        </article>
+
+
+        <!-- TARJETA 3 -->
+        <article class="tarjeta-programa">
+
+          <img
+            src="img/vilkasss-ai-generated-8894581_1920.jpg"
+            alt="Charla innovación"
+            class="imagen-tarjeta"
+          >
+
+          <div class="contenido-tarjeta">
+
+            <h5 class="titulo-tarjeta">Día 3 – Innovación</h5>
+
+            <p class="texto-tarjeta">
+              Conferencias avanzadas + zona de networking y cierre.
+            </p>
+
           </div>
-        </div>
+
+        </article>
+
       </div>
+
     </div>
+
   </section>
 
 
-  <footer class="bg-dark text-white text-center py-4">
-    <div class="container">
-      <p class="mb-1">Feria Tecnológica de Drones 2026 © </p>
-      <p class="small mb-0">Organizado por Marcos José Gracia Tejero</p>
+ 
+  <footer class="pie-pagina">
+
+    <div class="contenido-footer">
+
+      <p class="texto-footer">
+        Feria Tecnológica de Drones 2026 ©
+      </p>
+
+      <p class="autor-footer">
+        Organizado por Marcos José Gracia Tejero
+      </p>
+
     </div>
+
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
