@@ -5,196 +5,112 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feria Tecnológica de Drones 2026</title>
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ 
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   
-  <nav class="barra-navegacion">
-    <div class="contenedor-navegacion">
-
-      <a class="logo-feria" href="#">Drones Tech 2026</a>
-
-      <button class="boton-menu">
-        
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Drones Tech 2026</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
       </button>
-
-      <ul class="menu-navegacion">
-        <li><a class="enlace-menu" href="#info">Información</a></li>
-        <li><a class="enlace-menu" href="#programa">Programa</a></li>
-        <li><a class="enlace-menu" href="#">Inscripción</a></li>
-      </ul>
-
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#info">Información</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programa">Programa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Inscripción</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
 
-  
-  <section class="seccion-portada">
-
-    <div class="contenido-portada">
-
-      <h1 class="titulo-principal">Feria Tecnológica de Drones 2026</h1>
-
-      <p class="subtitulo-portada">
-        Innovación aérea: exposiciones, talleres y charlas
-      </p>
-
-      <a href="#programa" class="boton-principal">
-        Explorar programa
-      </a>
-
+  <section class="seccion-portada text-center py-5 bg-light">
+    <div class="container">
+      <h1 class="display-4">Feria Tecnológica de Drones 2026</h1>
+      <p class="lead">Innovación aérea: exposiciones, talleres y charlas</p>
+      <a href="#programa" class="btn btn-primary btn-lg">Explorar programa</a>
     </div>
-
   </section>
 
-
-
-  <section id="info" class="seccion-informacion">
-
-    <div class="contenedor-seccion">
-
-      <h2 class="titulo-seccion">¿Qué tienes que saber?</h2>
-
-      <div class="bloque-informacion">
-
-        <div class="columna-texto">
-
-          <h3 class="subtitulo-seccion">¿Qué es la feria?</h3>
-
+  
+  <section id="info" class="seccion-informacion py-5">
+    <div class="container">
+      <h2 class="mb-4">¿Qué tienes que saber?</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h3>¿Qué es la feria?</h3>
           <p>
             Evento abierto al público con stands de drones de última generación,
             demostraciones en vivo, talleres prácticos de pilotaje y charlas
             sobre usos profesionales (agricultura de precisión, inspección
             industrial, fotografía aérea y seguridad).
           </p>
-
-          <img
-            src="img/jonathan-lampel-L9wrEGJjRdo-unsplash.jpg"
-            alt="Feria de drones en acción"
-            class="imagen-informacion"
-          >
-
+          <img src="img/jonathan-lampel-L9wrEGJjRdo-unsplash.jpg" alt="Feria de drones en acción" class="img-fluid rounded">
         </div>
-
-
-        <div class="columna-datos">
-
-          <h3 class="subtitulo-seccion">Cuándo y dónde</h3>
-
-          <ul class="lista-datos">
-            <li><strong>Fechas:</strong> 15 al 17 de abril de 2026</li>
-            <li><strong>Horario:</strong> 10:00 – 19:00 h</li>
-            <li><strong>Lugar:</strong> Centro de Convenciones [Tu Ciudad]</li>
-            <li><strong>Entrada:</strong> Gratuita (inscripción recomendada)</li>
+        <div class="col-md-6">
+          <h3>Cuándo y dónde</h3>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Fechas:</strong> 15 al 17 de abril de 2026</li>
+            <li class="list-group-item"><strong>Horario:</strong> 10:00 – 19:00 h</li>
+            <li class="list-group-item"><strong>Lugar:</strong> Centro de Convenciones [Tu Ciudad]</li>
+            <li class="list-group-item"><strong>Entrada:</strong> Gratuita (inscripción recomendada)</li>
           </ul>
-
         </div>
-
       </div>
-
     </div>
-
   </section>
 
-
- 
-  <section id="programa" class="seccion-programa">
-
-    <div class="contenedor-seccion">
-
-      <h2 class="titulo-seccion">Programa destacado</h2>
-
-      <div class="lista-tarjetas">
-
-        
-        <article class="tarjeta-programa">
-
-          <img
-            src="img/yitzhak-rodriguez-mVI7sD0nTlA-unsplash.jpg"
-            alt="Taller de pilotaje"
-            class="imagen-tarjeta"
-          >
-
-          <div class="contenido-tarjeta">
-
-            <h5 class="titulo-tarjeta">Día 1 – Exposición</h5>
-
-            <p class="texto-tarjeta">
-              Stands de fabricantes + charlas introductorias sobre drones comerciales.
-            </p>
-
+  <!-- Programa -->
+  <section id="programa" class="seccion-programa py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Programa destacado</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/yitzhak-rodriguez-mVI7sD0nTlA-unsplash.jpg" class="card-img-top" alt="Taller de pilotaje">
+            <div class="card-body">
+              <h5 class="card-title">Día 1 – Exposición</h5>
+              <p class="card-text">Stands de fabricantes + charlas introductorias sobre drones comerciales.</p>
+            </div>
           </div>
-
-        </article>
-
-
-        
-        <article class="tarjeta-programa">
-
-          <img
-            src="img/karl-greif-H5IXIH254AU-unsplash.jpg"
-            alt="Demostración en vivo"
-            class="imagen-tarjeta"
-          >
-
-          <div class="contenido-tarjeta">
-
-            <h5 class="titulo-tarjeta">Día 2 – Talleres</h5>
-
-            <p class="texto-tarjeta">
-              Pilotaje práctico + demostraciones en exteriores.
-            </p>
-
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/karl-greif-H5IXIH254AU-unsplash.jpg" class="card-img-top" alt="Demostración en vivo">
+            <div class="card-body">
+              <h5 class="card-title">Día 2 – Talleres</h5>
+              <p class="card-text">Pilotaje práctico + demostraciones en exteriores.</p>
+            </div>
           </div>
-
-        </article>
-
-
-        <!-- TARJETA 3 -->
-        <article class="tarjeta-programa">
-
-          <img
-            src="img/vilkasss-ai-generated-8894581_1920.jpg"
-            alt="Charla innovación"
-            class="imagen-tarjeta"
-          >
-
-          <div class="contenido-tarjeta">
-
-            <h5 class="titulo-tarjeta">Día 3 – Innovación</h5>
-
-            <p class="texto-tarjeta">
-              Conferencias avanzadas + zona de networking y cierre.
-            </p>
-
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="img/vilkasss-ai-generated-8894581_1920.jpg" class="card-img-top" alt="Charla innovación">
+            <div class="card-body">
+              <h5 class="card-title">Día 3 – Innovación</h5>
+              <p class="card-text">Conferencias avanzadas + zona de networking y cierre.</p>
+            </div>
           </div>
-
-        </article>
-
+        </div>
       </div>
-
     </div>
-
   </section>
 
-
- 
-  <footer class="pie-pagina">
-
-    <div class="contenido-footer">
-
-      <p class="texto-footer">
-        Feria Tecnológica de Drones 2026 ©
-      </p>
-
-      <p class="autor-footer">
-        Organizado por Marcos José Gracia Tejero
-      </p>
-
+  
+  <footer class="pie-pagina text-center py-4 bg-dark text-white">
+    <div class="container">
+      <p class="mb-1">Feria Tecnológica de Drones 2026 ©</p>
+      <p class="mb-0">Organizado por Marcos José Gracia Tejero</p>
     </div>
-
   </footer>
 
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
